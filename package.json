@@ -1,5 +1,5 @@
 {
-  "name": "directory-walker",
+  "name": "directory-traverser",
   "version": "0.0.1",
   "description": "traverse directory tree using visitor callback accepting \"dir, filenames\"",
   "main": "index.js",
