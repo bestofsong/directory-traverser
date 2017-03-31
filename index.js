@@ -5,7 +5,7 @@ var fs = require('fs');
 // 0 - all dirs traversed
 // 1 - traverse quit during visiting i.e. dirVisitor return: 1, mean dont need to traverse anymore
 // -1 - traverse cancelled because of error, either happened when traversing or when visiting
-module.exports = function(dir, dirFilter, dirVisitor, options) {
+var walk = module.exports = function(dir, dirFilter, dirVisitor, options) {
   if (!dir) {
     return -1;
   }
