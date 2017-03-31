@@ -1,3 +1,4 @@
+var fs = require('fs');
 
 // dirVisitor: (dir, filenames) => bool(should stop)
 // return :
