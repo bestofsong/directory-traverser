@@ -1,0 +1,31 @@
+{
+  "name": "directory-walker",
+  "version": "0.0.1",
+  "description": "traverse directory tree using visitor callback accepting \"dir, filenames\"",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestofsong/directory-walker.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "fs",
+    "file",
+    "system",
+    "traverse",
+    "visitor"
+  ],
+  "author": "wansong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bestofsong/directory-walker/issues"
+  },
+  "homepage": "https://github.com/bestofsong/directory-walker#readme"
+}
