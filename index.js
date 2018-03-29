@@ -34,7 +34,7 @@ var walk = module.exports = function(dir, dirFilter, dirVisitor, options) {
     stat = fs.statSync(path);
     if (!stat || !stat.isDirectory()) continue;
     if (dirFilter(path)) {
-      if (!!(ret = walk(path, dirFilter, dirVisitor))) {
+      if (!!(ret = walk(path, dirFilter, dirVisitor, options))) {
         return ret;
       }
     } else {
