@@ -1,6 +1,6 @@
 {
   "name": "directory-traverser",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "traverse directory tree using visitor callback accepting \"dir, filenames\"",
   "main": "index.js",
   "scripts": {
