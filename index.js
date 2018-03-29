@@ -19,8 +19,6 @@ var walk = module.exports = function(dir, dirFilter, dirVisitor, options) {
   list.sort(function(file1, file2) {
     var stats1 = fs.statSync(dir + '/' + file1);
     var stats2 = fs.statSync(dir + '/' + file2);
-    if (!stats1) return 1;
-    if (!stats2) return -1;
     return stats2.mtime.getTime() - stats1.mtime.getTime();
   });
 
